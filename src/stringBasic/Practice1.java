@@ -1,7 +1,11 @@
 package stringBasic;
 
+import objectPractice.NetFlix;
+
 public class Practice1 {
     public static void main(String[] args) {
+
+        NetFlix.watch();
 
         System.out.println("This is first line");
 

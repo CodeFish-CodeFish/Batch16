@@ -46,12 +46,18 @@ public class TestAnimal {
         capybara.color = "GREEN";
         capybara.eat();
 
-
         // want animal to gain calories as they eat
 
         System.out.println(cat.calories );
 
-        System.out.println( capybara.calories  );
+        System.out.println( "-------------");
+//        System.out.println( capybara.calories  );
+//        System.out.println( capybara.name );
+//        System.out.println( capybara.color );
+//        System.out.println( capybara.age );
+
+        capybara.properties();
+
 
     }
 
